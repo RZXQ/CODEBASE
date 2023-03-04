@@ -1,0 +1,60 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("io.spring.javaformat:spring-javaformat-gradle-plugin:0.0.35")
+	}
+}
+
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.0.4'
+	id 'io.spring.dependency-management' version '1.1.0'
+	id 'org.graalvm.buildtools.native' version '0.9.20'
+    id "com.github.ben-manes.versions" version "0.46.0"
+}
+
+group = 'ruizhi'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '19'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+ext {
+	set('springBootAdminVersion', "3.0.0-M4")
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'de.codecentric:spring-boot-admin-starter-client'
+	implementation 'de.codecentric:spring-boot-admin-starter-server'
+	implementation 'org.springframework.session:spring-session-core'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+apply plugin: 'io.spring.javaformat'
+
+dependencyManagement {
+	imports {
+		mavenBom "de.codecentric:spring-boot-admin-dependencies:${springBootAdminVersion}"
+	}
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
