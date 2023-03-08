@@ -1,5 +1,5 @@
-import TextIndent from "./TailwindCSS/Typography/Text Indent";
+import BackgroundColor from "./TailwindCSS/Backgrounds/Background Color";
 
 export default function App() {
-  return <TextIndent />;
+  return <BackgroundColor />;
 }
