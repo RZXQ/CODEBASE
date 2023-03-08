@@ -1,5 +1,5 @@
-import BackgroundColor from "./TailwindCSS/Backgrounds/Background Color";
+import TextColor from "./TailwindCSS/Typography/Text Color";
 
 export default function App() {
-  return <BackgroundColor />;
+  return <TextColor />;
 }
