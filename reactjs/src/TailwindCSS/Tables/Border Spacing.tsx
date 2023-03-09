@@ -104,6 +104,7 @@
 // | border-spacing-96   | border-spacing: 24rem 24rem;                      |
 // | border-spacing-x-96 | border-spacing: 24rem var(--tw-border-spacing-y); |
 // | border-spacing-y-96 | border-spacing: var(--tw-border-spacing-x) 24rem; |
+//
 // Border Spacing: Utilities for controlling the spacing between table borders.
 // 1. Setting the border spacing: Use border-spacing to control the space between the borders of table cells with separate borders.
 export default function BorderSpacing() {
