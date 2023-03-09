@@ -1,5 +1,5 @@
-import Stroke from "./TailwindCSS/SVG/Stroke";
+import Fill from "./TailwindCSS/SVG/Fill";
 
 export default function App() {
-  return <Stroke />;
+  return <Fill />;
 }
