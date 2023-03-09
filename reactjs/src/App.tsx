@@ -1,3 +1,5 @@
+import Fill from "./TailwindCSS/SVG/Fill";
+
 export default function App() {
-  return <div></div>;
+  return <Fill />;
 }
