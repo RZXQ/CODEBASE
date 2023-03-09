@@ -1,5 +1,5 @@
-import Fill from "./TailwindCSS/SVG/Fill";
+import StrokeWidth from "./TailwindCSS/SVG/Stroke Width";
 
 export default function App() {
-  return <Fill />;
+  return <StrokeWidth />;
 }

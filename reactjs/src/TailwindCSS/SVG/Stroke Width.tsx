@@ -6,7 +6,7 @@
 //
 // Stroke Width: Utilities for styling the stroke width of SVG elements.
 // 1. Setting the stroke width: Use the stroke-{width} utilities to set the stroke width of an SVG.
-export default function Fill() {
+export default function StrokeWidth() {
   return (
       <svg
           xmlns="http://www.w3.org/2000/svg"
