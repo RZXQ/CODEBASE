@@ -1,5 +1,5 @@
-import StrokeWidth from "./TailwindCSS/SVG/Stroke Width";
+import Stroke from "./TailwindCSS/SVG/Stroke";
 
 export default function App() {
-  return <StrokeWidth />;
+  return <Stroke />;
 }
