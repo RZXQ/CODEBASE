@@ -7,6 +7,7 @@
 // | drop-shadow-xl   | filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); |
 // | drop-shadow-2xl  | filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));          |
 // | drop-shadow-none | filter: drop-shadow(0 0 #0000);                              |
+//
 // Drop Shadow: Utilities for applying drop-shadow filters to an element.
 // 1. Adding a drop shadow: Use the drop-shadow-{amount} utilities to add a drop shadow to an element.
 // 2. Removing filters: To remove all of the filters on an element at once, use the filter-none utility. This can be useful when you want to remove filters conditionally, such as on hover or at a particular breakpoint.
