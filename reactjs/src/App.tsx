@@ -1,5 +1,5 @@
-import BackdropBrightness from "./TailwindCSS/Filters/Backdrop Brightness";
+import BackdropGrayscale from "./TailwindCSS/Filters/Backdrop Grayscale";
 
 export default function App() {
-  return <BackdropBrightness />;
+  return <BackdropGrayscale />;
 }
