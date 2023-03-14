@@ -1,5 +1,5 @@
-import BackdropGrayscale from "./TailwindCSS/Filters/Backdrop Grayscale";
+import BackdropHueRotate from "./TailwindCSS/Filters/Backdrop Hue Rotate";
 
 export default function App() {
-  return <BackdropGrayscale />;
+  return <BackdropHueRotate />;
 }
