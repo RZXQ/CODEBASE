@@ -1,5 +1,5 @@
-import HueRotate from "./TailwindCSS/Filters/Hue Rotate";
+import DropShadow from "./TailwindCSS/Filters/Drop Shadow";
 
 export default function App() {
-  return <HueRotate />;
+  return <DropShadow />;
 }
