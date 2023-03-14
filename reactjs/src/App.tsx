@@ -1,5 +1,5 @@
-import Fill from "./TailwindCSS/SVG/Fill";
+import BackdropBlur from "./TailwindCSS/Filters/Backdrop Blur";
 
 export default function App() {
-  return <Fill />;
+  return <BackdropBlur />;
 }
