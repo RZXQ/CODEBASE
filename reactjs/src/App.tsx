@@ -1,5 +1,5 @@
-import BackdropHueRotate from "./TailwindCSS/Filters/Backdrop Hue Rotate";
+import BackdropOpacity from "./TailwindCSS/Filters/Backdrop Opacity";
 
 export default function App() {
-  return <BackdropHueRotate />;
+  return <BackdropOpacity />;
 }
