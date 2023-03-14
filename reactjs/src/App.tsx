@@ -1,5 +1,5 @@
-import BackdropSepia from "./TailwindCSS/Filters/Backdrop Sepia";
+import HueRotate from "./TailwindCSS/Filters/Hue Rotate";
 
 export default function App() {
-  return <BackdropSepia />;
+  return <HueRotate />;
 }
